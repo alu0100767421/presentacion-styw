@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #F0F0F0;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+#table1 table.highlight > tbody > tr:hover {
+  background-color: black;
+  color: white;
+}
+
